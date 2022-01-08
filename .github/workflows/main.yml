@@ -19,6 +19,7 @@ jobs:
           RENOVATE_IGNORE_PR_AUTHOR: "true"
           RENOVATE_BRANCH_PREFIX: "renovate/"
           READONLY_GITLAB_LOOKUP_TOKEN: ${{ secrets.GITLAB_LOOKUP_TOKEN }}
+          RENOVATE_REPOSITORIES: rv2673/renovate-gitlab-changelog-test
         with:
           configurationFile: config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
