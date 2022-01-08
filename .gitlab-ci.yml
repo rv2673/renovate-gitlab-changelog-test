@@ -1,0 +1,15 @@
+include:
+  - project: "renovate-reproduction-test/private-template-repo-example"
+    ref: "1.0.0"
+    file:
+      - pipeline-include-default-settings.yml
+
+stages:
+  - validate
+
+validate:
+  stage: validate
+  image: alpine:latest
+  script:
+      - echo "From validate job"
+
