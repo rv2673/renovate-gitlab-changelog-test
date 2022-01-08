@@ -11,11 +11,7 @@ jobs:
         uses: renovatebot/github-action@v31.21.0
         env:
           RENOVATE_AUTODISCOVER: "false"
-          RENOVATE_BASE_DIR: $CI_PROJECT_DIR/renovate
-          RENOVATE_ENDPOINT: $CI_API_V4_URL
-          RENOVATE_PLATFORM: gitlab
           RENOVATE_OPTIMIZE_FOR_DISABLED: "true"
-          RENOVATE_REPOSITORY_CACHE: "true"
           RENOVATE_REQUIRE_CONFIG: "true"
           RENOVATE_ONBOARDING: "false"
           LOG_LEVEL: debug
