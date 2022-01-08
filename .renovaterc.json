@@ -7,7 +7,5 @@
   "gitlabci": {
       "enabled": false
   },
-  "gitlabci-include": {
-      "enabled": true
-  }
+  "enabledManagers": ["gitlabci-include"]
 }
