@@ -2,11 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ],  
-  "packageRules": [{
-    "matchDatasources":["gitlab-tags"],    
-    "registryUrls": ["https://gitlab.com/api/v4"]
-  }],
+  ],
   "pinDigests": true,
   "gitlabci": {
       "enabled": false
